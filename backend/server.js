@@ -1,6 +1,7 @@
 import app from "./app.js";
 import cloudinary from "cloudinary";
-import dbConnection from "./database/db.js"; // ✅ Import your DB connection
+import dbConnection from "./database/dbConnection.js"; // ✅ correct
+ // ✅ Import your DB connection
 
 // ✅ Connect to MongoDB
 dbConnection();
